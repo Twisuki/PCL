@@ -543,7 +543,7 @@ Public Class MyListItem
 #End Region
 
     Private StateLast As String
-    Public IsMouseOverAnimationEnabled As Boolean = True
+    Public IsMouseOverAnimationEnabled As Boolean = ModDebugArgs.ListItemHoverDefault
     Public Sub RefreshColor(sender As Object, e As EventArgs) Handles Me.MouseEnter, Me.MouseLeave, Me.PreviewMouseLeftButtonDown, Me.PreviewMouseLeftButtonUp
         '菜单虚拟化检测
         If ContentHandler IsNot Nothing Then

@@ -18,7 +18,7 @@ Public Class PageSelectRight
     ''' <summary>
     ''' 是否显示隐藏的 Minecraft 版本。
     ''' </summary>
-    Public ShowHidden As Boolean = False
+    Public ShowHidden As Boolean = ModDebugArgs.ShowHiddenDefault
 
 #Region "结果 UI 化"
 
